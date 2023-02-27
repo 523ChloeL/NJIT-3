@@ -37,12 +37,13 @@ const vue_app = Vue.createApp({
             title: "IMDB + Chloe’s Top 8 Movies",
             owner:  "Chloe Lee",
             github:  "https://github.com/523ChloeL/NJIT-3"
-         
+            
       }
     },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
-      }
-})
+            
 
+      }     
+})
 vue_app.mount("#vue_app")
