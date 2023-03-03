@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Avengers Infinity War",
+            "iscore": 8.4,
+            "rating": "PG-13",
+            "runtime": 149,
+            "released": [2018, 4, 27],
+            "country": "USA",
+            "posters": ["img/infinityWar1.jpg", "img/infinityWar2.jpg","img/infinityWar3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt4154756/",
+            "website": "https://movies.disney.com/avengers-infinity-war",
+            "likes": 4565,
+            "dislikes": 435,
+            "posterindex": 0
+      },
+      {
+            "title": "Big Hero 6",
+            "iscore": 7.8,
+            "rating": "PG",
+            "runtime": 102,
+            "released": [2014, 11, 7],
+            "country": "USA",
+            "posters": ["img/bigHero1.jpg", "img/bigHero2.jpeg","img/bigHero3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt2245084/?ref_=nv_sr_srsg_0",
+            "website": "https://movies.disney.com/big-hero-6",
+            "likes": 628,
+            "dislikes": 101,
+            "posterindex": 0
+      },
+      {
+            "title": "Free Guy",
+            "iscore": "7.1",
+            "rating": "PG-13",
+            "runtime": 115,
+            "released": [2021, 8, 13],
+            "country": "USA",
+            "posters": ["img/freeGuy1.jpg", "img/freeGuy2.jpg","img/freeGuy3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt6264654/",
+            "website": "https://www.rottentomatoes.com/m/free_guy",
+            "likes": 828,
+            "dislikes": 127,
+            "posterindex": 0
       }
 ]
