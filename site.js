@@ -34,12 +34,13 @@ const vue_app = Vue.createApp({
             // This holds your movies.json data.
             movies: [],
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
-            title: "IMDB + Chloe’s Top 8 Movies",
+            title: "IMDb & Chloe’s Top 8 Movies",
             owner:  "Chloe Lee",
             github:  "https://github.com/523ChloeL/NJIT-3",
       }
     },
       methods: {
+            //convert the numeric month into a text month and format the day and year in USA date order
             getMonthText(dateArray){
                  let month = ""
                   switch (dateArray[1]) {
@@ -82,12 +83,14 @@ const vue_app = Vue.createApp({
                   }
                   return month +  " " + dateArray[2] + ", " + dateArray[0]
             },
+            //  increment posterindex, for the movie at the given “index”, and show the poster at the updated posterindex index
             posterClick(movie){
                   movie.posterindex++
                   if (movie.posterindex > movie.posters.length - 1){
 		            movie.posterindex = 0
                   }
             },
+            //  convert “minutes” (an integer) to a String of hours and minutes. 
             timeText(min){
                   let hours = Math.floor(min / 60)
                   let minutes = min % 60

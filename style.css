@@ -6,6 +6,7 @@ body {
     width: 100%;
     overflow: auto;
     background-image: url(img/geometry.jpg);
+    font-family: 'Tilt Warp', cursive;
 }
 
 /* This stylizes the header area */
@@ -75,8 +76,9 @@ body {
     text-align: center;
     width: 80px;
     position: absolute;
-    top: 50px;
+    top: 30px;
     right: 25px;
+    border-radius: 50%;
 }
 
 /* This contains your like and dislike buttons */
